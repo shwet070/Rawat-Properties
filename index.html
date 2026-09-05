@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1628" />
+  <meta name="description" content="Rawat Properties is a real estate agency in Vasundhara, Ghaziabad helping customers explore residential, commercial, rental and investment property opportunities." />
+  <title>Rawat Properties | Real Estate Agency in Vasundhara, Ghaziabad</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Rawat Properties home">
+        <span class="brand-mark">RP</span>
+        <span class="brand-copy">
+          <strong>RAWAT</strong>
+          <small>PROPERTIES</small>
+        </span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-primary nav-cta" href="tel:+919999102678">Talk to an Expert</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#properties">Properties</a>
+      <a href="#services">Services</a>
+      <a href="#about">About Us</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-primary" href="tel:+919999102678">Call Rawat Properties</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="eyebrow">TRUSTED PROPERTY CONSULTANCY</div>
+        <h1>Find the Right Property.<br><em>Make the Right Move.</em></h1>
+        <p>Trusted property consultation in Vasundhara, Ghaziabad and the surrounding NCR region.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#properties">Explore Properties</a>
+          <a class="btn btn-outline-light" href="#contact">Talk to a Property Expert</a>
+        </div>
+
+        <div class="hero-trust">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <strong>5.0 Google Rating</strong>
+          <span>·</span>
+          <span>122+ Reviews</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#property-search" aria-label="Scroll to property search">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="search-section" id="property-search">
+      <div class="container">
+        <div class="search-card">
+          <div class="search-heading">
+            <div class="eyebrow dark">PROPERTY SEARCH</div>
+            <h2>What Are You Looking For?</h2>
+            <p>Tell us what you need and start with the right conversation.</p>
+          </div>
+
+          <div class="search-tabs" role="tablist" aria-label="Property purpose">
+            <button class="search-tab active" data-purpose="Buy" type="button">Buy</button>
+            <button class="search-tab" data-purpose="Rent" type="button">Rent</button>
+            <button class="search-tab" data-purpose="Commercial" type="button">Commercial</button>
+            <button class="search-tab" data-purpose="Investment" type="button">Investment</button>
+          </div>
+
+          <form id="quickSearchForm" class="search-grid">
+            <input type="hidden" name="purpose" id="searchPurpose" value="Buy" />
+            <label>
+              <span>Location</span>
+              <input type="text" name="location" placeholder="e.g. Vasundhara" />
+            </label>
+            <label>
+              <span>Property Type</span>
+              <select name="propertyType">
+                <option value="">Select type</option>
+                <option>Apartment</option>
+                <option>Independent House</option>
+                <option>Plot</option>
+                <option>Office</option>
+                <option>Shop</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              <span>Budget</span>
+              <select name="budget">
+                <option value="">Select budget</option>
+                <option>Under ₹25 Lakh</option>
+                <option>₹25–50 Lakh</option>
+                <option>₹50 Lakh–₹1 Cr</option>
+                <option>₹1 Cr+</option>
+              </select>
+            </label>
+            <label>
+              <span>Bedrooms</span>
+              <select name="bedrooms">
+                <option value="">Any</option>
+                <option>1 BHK</option>
+                <option>2 BHK</option>
+                <option>3 BHK</option>
+                <option>4+ BHK</option>
+              </select>
+            </label>
+            <button class="btn btn-dark search-submit" type="submit">Find My Property <span>→</span></button>
+          </form>
+          <p class="form-note">This search starts a consultation request; it does not represent a live inventory feed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="properties">
+      <div class="container">
+        <div class="section-intro">
+          <div>
+            <div class="eyebrow dark">PROPERTY CATEGORIES</div>
+            <h2>Explore Property Opportunities</h2>
+          </div>
+          <p>Get guidance across the property categories that matter to your requirement.</p>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card category-residential">
+            <div class="category-content">
+              <span class="card-number">01</span>
+              <h3>Residential</h3>
+              <p>Homes, apartments and residential properties for families and individuals.</p>
+              <a href="#contact">Explore Residential <span>→</span></a>
+            </div>
+          </article>
+          <article class="category-card category-commercial">
+            <div class="category-content">
+              <span class="card-number">02</span>
+              <h3>Commercial</h3>
+              <p>Commercial spaces for businesses, offices and investment requirements.</p>
+              <a href="#contact">Explore Commercial <span>→</span></a>
+            </div>
+          </article>
+          <article class="category-card category-investment">
+            <div class="category-content">
+              <span class="card-number">03</span>
+              <h3>Investment</h3>
+              <p>Property opportunities to evaluate for long-term investment decisions.</p>
+              <a href="#contact">Explore Investments <span>→</span></a>
+            </div>
+          </article>
+          <article class="category-card category-rental">
+            <div class="category-content">
+              <span class="card-number">04</span>
+              <h3>Rental</h3>
+              <p>Rental assistance for homes and commercial spaces based on your need.</p>
+              <a href="#contact">Find a Rental <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="services">
+      <div class="container">
+        <div class="center-intro">
+          <div class="eyebrow dark">WHY RAWAT PROPERTIES</div>
+          <h2>A Better Way to Approach Property.</h2>
+          <p>Practical local guidance designed to make your property search clearer and more confident.</p>
+        </div>
+
+        <div class="benefit-grid">
+          <article class="benefit-card">
+            <div class="icon-box">⌖</div>
+            <h3>Local Property Expertise</h3>
+            <p>Understanding of the Vasundhara and Ghaziabad market and its surrounding NCR context.</p>
+          </article>
+          <article class="benefit-card">
+            <div class="icon-box">◇</div>
+            <h3>Genuine Property Options</h3>
+            <p>Explore property opportunities aligned with your requirements instead of generic listings.</p>
+          </article>
+          <article class="benefit-card">
+            <div class="icon-box">✓</div>
+            <h3>Honest Consultation</h3>
+            <p>Clear communication and practical property guidance without unnecessary pressure.</p>
+          </article>
+          <article class="benefit-card">
+            <div class="icon-box">↗</div>
+            <h3>End-to-End Assistance</h3>
+            <p>Support through property search, shortlisting, visits and your next decision.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section consultation" id="about">
+      <div class="container consultation-grid">
+        <div class="consultation-image" role="img" aria-label="Modern property building">
+          <div class="image-tag">VASUNDHARA · GHAZIABAD</div>
+        </div>
+        <div class="consultation-copy">
+          <div class="eyebrow dark">PERSONALIZED PROPERTY CONSULTATION</div>
+          <h2>Your Property Search Starts With the Right Conversation.</h2>
+          <p>Tell us what you are looking for, your preferred location and your budget. Rawat Properties can help you identify suitable property opportunities and guide you through the next steps.</p>
+          <div class="feature-line"><span>01</span><div><strong>Requirement-first approach</strong><small>Start with your actual needs.</small></div></div>
+          <div class="feature-line"><span>02</span><div><strong>Local market context</strong><small>Make decisions with the right context.</small></div></div>
+          <div class="feature-line"><span>03</span><div><strong>Clear next steps</strong><small>Move from search to visit with less friction.</small></div></div>
+
+          <div class="consultation-actions">
+            <a class="btn btn-dark" href="#contact">Talk to Rawat Properties</a>
+            <a class="phone-link" href="tel:+919999102678">099991 02678</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container">
+        <div class="center-intro">
+          <div class="eyebrow dark">HOW IT WORKS</div>
+          <h2>From Requirement to the Right Next Step.</h2>
+        </div>
+        <div class="process-grid">
+          <article class="process-card"><span>01</span><h3>Tell Us Your Requirement</h3><p>Share your preferred location, property type and budget.</p></article>
+          <article class="process-card"><span>02</span><h3>Explore Suitable Options</h3><p>Get property options based on your requirements.</p></article>
+          <article class="process-card"><span>03</span><h3>Visit & Evaluate</h3><p>Shortlist properties and schedule visits.</p></article>
+          <article class="process-card"><span>04</span><h3>Make Your Move</h3><p>Get guidance as you move toward your property decision.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="local-section">
+      <div class="container local-grid">
+        <div>
+          <div class="eyebrow">LOCAL EXPERTISE</div>
+          <h2>Property Expertise Where You Need It Most.</h2>
+          <p>Based in Vasundhara, Ghaziabad, Rawat Properties helps buyers, tenants and investors explore property opportunities in the local market and surrounding NCR areas.</p>
+          <div class="local-pills">
+            <span>Vasundhara</span>
+            <span>Ghaziabad</span>
+            <span>NCR</span>
+          </div>
+        </div>
+        <div class="map-card">
+          <div class="map-pin">⌖</div>
+          <div class="map-label"><strong>Rawat Properties</strong><span>Vasundhara, Ghaziabad</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews-section" id="reviews">
+      <div class="container">
+        <div class="review-header">
+          <div>
+            <div class="eyebrow dark">CUSTOMER FEEDBACK</div>
+            <h2>What Our Customers Say</h2>
+          </div>
+          <div class="rating-box">
+            <div class="big-rating">5.0</div>
+            <div><div class="stars dark-stars">★★★★★</div><span>122+ Google Reviews</span></div>
+          </div>
+        </div>
+
+        <div class="review-grid">
+          <blockquote class="review-card"><div class="stars dark-stars">★★★★★</div><p>“They have good property options and worthy consultation”</p><cite>Google User</cite></blockquote>
+          <blockquote class="review-card"><div class="stars dark-stars">★★★★★</div><p>“Best property Dealer honest dealing and great service highly recommend”</p><cite>Google User</cite></blockquote>
+          <blockquote class="review-card"><div class="stars dark-stars">★★★★★</div><p>“For genuine property dealer, excellent service.”</p><cite>Google User</cite></blockquote>
+        </div>
+
+        <div class="review-cta">
+          <span>Rated 5.0 on Google by 122+ reviewers.</span>
+          <a href="#contact">Talk to the Team →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="lead-section" id="contact">
+      <div class="container lead-grid">
+        <div class="lead-copy">
+          <div class="eyebrow">START YOUR PROPERTY SEARCH</div>
+          <h2>Looking for a Property in Ghaziabad?</h2>
+          <p>Tell us what you're looking for and our team will help you take the next step.</p>
+
+          <div class="contact-mini">
+            <a href="tel:+919999102678"><span>Call</span><strong>099991 02678</strong></a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Rawat%20Properties%2C%20GF%2017%2C%20Reliable%20City%20Centre%2C%20Vasundhara%2C%20Ghaziabad" target="_blank" rel="noopener"><span>Visit</span><strong>Get Directions →</strong></a>
+          </div>
+        </div>
+
+        <form class="lead-form" id="leadForm">
+          <div class="form-title">Request Property Assistance</div>
+          <div class="form-row">
+            <label>Full Name<input required type="text" name="fullName" autocomplete="name" placeholder="Your name"></label>
+            <label>Phone Number<input required type="tel" name="phone" autocomplete="tel" placeholder="Your phone number"></label>
+          </div>
+          <div class="form-row">
+            <label>Email Address<input type="email" name="email" autocomplete="email" placeholder="you@example.com"></label>
+            <label>Looking For
+              <select required name="lookingFor">
+                <option value="">Choose</option>
+                <option>Buy</option><option>Rent</option><option>Commercial</option><option>Investment</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Preferred Location<input type="text" name="preferredLocation" placeholder="e.g. Vasundhara"></label>
+            <label>Budget
+              <select name="budget">
+                <option value="">Select budget</option>
+                <option>Under ₹25 Lakh</option><option>₹25–50 Lakh</option><option>₹50 Lakh–₹1 Cr</option><option>₹1 Cr+</option>
+              </select>
+            </label>
+          </div>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us what you are looking for..."></textarea></label>
+          <button class="btn btn-gold form-submit" type="submit">Request Property Assistance <span>→</span></button>
+          <p class="privacy-note">Your information is used only to respond to your property request.</p>
+          <div class="success-message" id="successMessage" role="status" aria-live="polite">
+            <strong>Thank You!</strong>
+<br>
+Your enquiry has been submitted successfully.
+Our Rawat Properties team will contact you shortly.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section location-section">
+      <div class="container">
+        <div class="location-heading">
+          <div>
+            <div class="eyebrow dark">VISIT US</div>
+            <h2>Rawat Properties</h2>
+          </div>
+          <a class="btn btn-dark" href="https://www.google.com/maps/search/?api=1&query=Rawat%20Properties%2C%20GF%2017%2C%20Reliable%20City%20Centre%2C%20Navyug%20Market%2C%20Vasundhara%2C%20Ghaziabad" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+        <div class="location-grid">
+          <div class="location-info">
+            <p><strong>Address</strong><br>GF 17, Reliable City Centre, Navyug Market,<br>Sector 4, Sector 6, Vasundhara,<br>Ghaziabad, Uttar Pradesh 201012</p>
+            <p><strong>Phone</strong><br><a href="tel:+919999102678">099991 02678</a></p>
+            <p><strong>Hours</strong><br>Open until 8:00 PM</p>
+          </div>
+          <div class="map-embed">
+            <iframe
+              title="Map showing Rawat Properties, Vasundhara, Ghaziabad"
+              src="https://www.google.com/maps?q=GF%2017%2C%20Reliable%20City%20Centre%2C%20Navyug%20Market%2C%20Vasundhara%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201012&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home"><span class="brand-mark">RP</span><span class="brand-copy"><strong>RAWAT</strong><small>PROPERTIES</small></span></a>
+        <p>Your trusted local property consultancy in Vasundhara, Ghaziabad.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a><a href="#properties">Properties</a><a href="#services">Services</a><a href="#about">About Us</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="tel:+919999102678">099991 02678</a>
+        <p>Vasundhara, Ghaziabad, Uttar Pradesh</p>
+      </div>
+      <div>
+        <h4>Get In Touch</h4>
+        <a href="tel:+919999102678">Call Now</a>
+        <a href="#contact">Request Assistance</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Rawat%20Properties%2C%20Vasundhara%2C%20Ghaziabad" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Rawat Properties. All Rights Reserved.</span>
+      <span>Vasundhara · Ghaziabad · NCR</span>
+    </div>
+  </footer>
+
+  <div class="mobile-action-bar">
+    <a href="tel:+919999102678"><span>☎</span>Call</a>
+    <a href="#contact"><span>✦</span>Enquire</a>
+    <a href="https://www.google.com/maps/search/?api=1&query=Rawat%20Properties%2C%20Vasundhara%2C%20Ghaziabad" target="_blank" rel="noopener"><span>⌖</span>Directions</a>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>

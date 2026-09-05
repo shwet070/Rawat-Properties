@@ -1,0 +1,1 @@
+Put licensed Rawat Properties photos/logo assets in this folder and update image URLs in style.css/index.html.
