@@ -42,6 +42,14 @@ document.getElementById("quickSearchForm")?.addEventListener("submit", event => 
   document.getElementById("contact")?.scrollIntoView({ behavior: "smooth", block: "start" });
 });
 
+document.querySelectorAll(".listing-enquire").forEach(button => {
+  button.addEventListener("click", () => {
+    const message = leadForm?.querySelector('textarea[name="message"]');
+    if (message) message.value = `I am interested in: ${button.dataset.property}. Please share more details.`;
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+});
+
 const leadForm = document.getElementById("leadForm");
 const successMessage = document.getElementById("successMessage");
 
