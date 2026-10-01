@@ -456,6 +456,15 @@ Our Rawat Properties team will contact you shortly.
     <a href="https://www.google.com/maps/search/?api=1&query=Rawat%20Properties%2C%20Vasundhara%2C%20Ghaziabad" target="_blank" rel="noopener"><span>⌖</span>Directions</a>
   </div>
 
+
+  <!-- AI Property Assistant -->
+  <button class="property-chat-toggle" id="propertyChatToggle" type="button" aria-label="Open Rawat Properties AI Assistant" aria-expanded="false"><span class="chat-icon">✦</span><span class="chat-toggle-label">Ask AI</span></button>
+  <section class="property-chat" id="propertyChat" aria-label="Rawat Properties AI Assistant" aria-hidden="true">
+    <div class="property-chat-header"><div><strong>Rawat Property Assistant</strong><small>Find properties with AI assistance</small></div><button id="propertyChatClose" type="button" aria-label="Close chat">×</button></div>
+    <div class="property-chat-messages" id="propertyChatMessages" aria-live="polite"><div class="chat-message assistant"><div class="chat-bubble">👋 Hi! I'm the Rawat Properties assistant.<br>Tell me what you're looking for — for example, <strong>"3 BHK in Vasundhara"</strong>.</div></div></div>
+    <form class="property-chat-form" id="propertyChatForm"><input id="propertyChatInput" name="message" type="text" autocomplete="off" placeholder="e.g. 3 BHK in Vasundhara" aria-label="Type your property requirement" required><button type="submit" id="propertyChatSend" aria-label="Send message">➤</button></form>
+  </section>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
 </body>
